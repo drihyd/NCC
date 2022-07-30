@@ -12,12 +12,13 @@ body {
 }
 
 h1{
-    font-size: 36px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 900;
 }
 h2{
-    font-size: 30px;
+    font-size: 34px;
     font-weight: 700;
+    margin: 10px 0px;
 }
 h3{
     font-size: 26px;
@@ -53,3 +54,360 @@ section{
 .text-yellow{
     color: #F3B128;
 }
+
+
+.btn.btn-brand{
+    color: #4A3400;
+    background: #F6BA1E;
+    padding: 10px 25px;
+    border-radius: 0;
+    font-weight: 600;
+    border: 1px solid #F6BA1E;
+}
+.btn.btn-brand:hover{
+    background: #4A3400;
+    color: #F6BA1E;
+}
+
+
+/*Slick CSS Begin*/
+
+.slick-slide{
+    height: auto;
+}
+.slider-container {
+    position: relative
+}
+
+.slick-arrow {
+     font-family: "Font Awesome 5 Free";
+    background: transparent;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 18%;
+    margin: auto;
+    color: #1d1818;
+    z-index: 1;
+    border: 0;
+    font-size: 0;
+    outline: 0;
+    border: 0;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    opacity: 1;
+    outline: 0;
+}
+
+button{
+    outline: 0 !important;
+}
+
+.slick-arrow:hover{
+    background: #0071bb;
+}
+
+.slick-arrow.slick-prev:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f053";
+    color: #1d1818;
+    font-size: 16px;
+    line-height: 2.2;
+    font-weight: 600;
+}
+
+.slick-arrow.slick-prev {
+    left: -30px;
+}
+.slick-arrow.slick-next {
+    right: -30px;
+}
+
+.slick-arrow.slick-next:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f054";
+    color: #1d1818;
+    font-size: 16px;
+    line-height: 2.2;
+    font-weight: 600;
+}
+
+.slick-arrow:hover.slick-prev:before{
+    color: #fff;
+}
+.slick-arrow:hover.slick-next:before{
+    color: #fff;
+}
+
+.slick-dots {
+    text-align: center;
+    padding: 0;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 3px;
+    padding: 0;
+    cursor: pointer
+}
+
+.slick-dots li:only-child {
+    opacity: 0
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: 0;
+    background: 0 0
+}
+
+.slick-dots li button::before,
+.slick-dots li button:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+    margin: auto auto;
+    width: 10px;
+    height: 10px;
+    background: 0 0;
+    background: #003376;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%
+}
+
+.slick-dots li.slick-active button::before,
+.slick-dots li.slick-active button:before {
+    background: #fff;
+    width: 10px;
+    height: 10px
+}
+
+.slick-track{
+    margin-left: initial;
+    margin-right: initial;
+}
+
+@media(max-width: 480px){
+    .slick-arrow{
+        top: 4%;
+    }
+}
+
+.banners-slider .slick-dots{
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+    right: 20%;
+    text-align: right;
+}
+
+/*Slick Css END*/
+
+/*Header CSS STARTS*/
+header{
+    background: #092759;
+}
+
+.topbar ul{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+}
+.topbar ul li{
+    color: #EBFEFF;
+    padding: 20px 10px;
+    font-size: 14px;
+}
+.topbar ul li a{
+    color: #fff;
+    font-size: 20px;
+}
+.topbar ul li .text-large{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav-link{
+    color: #fff !important;
+    font-size: 14px;
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+.navbar-toggler-icon{
+    color: #fff;
+}
+.dropdown-toggle::after{
+    border-top: 0.3em solid #F3B128;
+}
+@media(max-width: 480px){
+    .topbar ul{
+        margin-bottom: 5px;
+    }
+    .topbar ul li{
+        font-size: 12px;
+        padding: 5px;
+    }
+    .topbar ul li .text-large{
+        font-size: 14px;
+    }
+    .nav-item{
+        text-align: right;
+    }
+    .dropdown-item{
+        text-align: right;
+    }
+}
+
+/*Header CSS ENDS*/
+
+
+/*Home Page CSS BEGINS*/
+.banner-bg{
+    min-height: 75vh;
+}
+.banner-item{
+    position: relative;
+}
+.banner-content{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.banner-content h1{
+    color: #092759;
+}
+
+.small-title{
+    color: #524536;
+    font-weight: 700;
+    font-size: 14px;
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 0;
+}
+.small-title:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    height: 2px;
+    background: #F6BA1E;
+    margin: auto;
+}
+.banner-description{
+    color: #524536;
+    font-weight: 700;
+}
+
+@media(max-width: 480px){
+    .banner-content{
+        position: initial;
+        background: #F8931F;
+        padding: 30px 15px;
+    }
+}
+/*Home Page CSS ENDS*/
+
+
+/*Footer CSS BEGINS*/
+footer{
+    background: #092759;
+}
+.footer-logo{
+    width: 130px;
+}
+.footer-website-info p{
+    color: #fff;
+    font-size: 13px;
+}
+.footer-card-wrapper{
+    padding: 40px 0px 20px;
+}
+.footer-card-wrapper h4{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-contact-info{
+    list-style-type: none;
+    padding-left: 0;
+}
+.footer-contact-info li {
+    position: relative;
+    padding-left: 25px;
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.footer-contact-info li i {
+    position: absolute;
+    left: 0;
+    color: #fff;
+    top: 7px;
+}
+.footer-contact-info li a{
+    color: #fff;
+    font-size: 13px;
+}
+.footer-menu-links{
+    list-style-type: none;
+    padding-left: 0;
+}
+.footer-menu-links li{
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+.footer-menu-links li a{
+    color: #fff;
+    font-size: 13px;
+}
+.footer-border-bottom{
+    border-bottom: 2px solid #465F85;
+}
+.social-links{
+    list-style-type: none;
+}
+.social-links li{
+    display: inline-flex;
+    border: 1px solid #F6BA1E;
+    background: #F6BA1E;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.social-links li a{
+    color: #092759;
+    font-size: 14px;
+}
+/*Footer CSS ENDS*/
