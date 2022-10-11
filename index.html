@@ -1,318 +1,1042 @@
 <!DOCTYPE html>
 <html class="no-js" lang>
+
 <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-      <link rel="icon" href="./img/favicon.png" type="image/x-icon">
-      <title>NCC</title>
-      <meta name="description" content="">
-      <meta name="keywords" content="">
-      <meta name="robots" content="noodp">
-      <!-- FONTAWESOME INCLUDE : BEGIN -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-      
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
-                
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-      
-      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-      <link rel="stylesheet" href="./css/style.css">
-   </head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./img/favicon.png" type="image/x-icon">
+    <title>NCC</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="noodp">
+    <!-- FONTAWESOME INCLUDE : BEGIN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
 <body>
 
 
 
-   <header>
-      <div class="container">
-         <div class="row align-items-sm-center">
-            <div class="col-sm-2 col-4 pl-sm-3 pl-0">
-               <a href="#"><img src="./img/header-logo.png" class="img-fluid"></a>
-            </div>
-            <div class="col-sm-10 col-8">
+    <header>
+        <div class="container">
+            <div class="row align-items-sm-center">
+                <div class="col-sm-2 col-4 pl-sm-3 pl-0">
+                    <a href="#"><img src="./img/header-logo.png" class="img-fluid"></a>
+                </div>
+                <div class="col-sm-10 col-8">
 
-               <div class="topbar">
-                  <ul class="pl-0">
-                     <li class="mr-sm-4">Share Price at 05:00PM IST: <span class="text-large text-yellow">65.05</span> <span class="text-yellow">INR</span></li>
-                     <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-                     <li><a href="#"><i class="fas fa-search"></i></a></li>
-                  </ul>
-               </div>
-               <div class="menubar">
-                  <nav class="navbar navbar-expand-lg pt-0 pb-0 pl-0 pr-0 justify-content-end">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="topbar">
+                        <ul class="pl-0">
+                            <!--<li class="mr-sm-4">Share Price at 05:00PM IST: <span class="text-large text-yellow">65.05</span> <span class="text-yellow">INR</span></li>-->
+                            <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                            <li><a href="#"><i class="fas fa-search"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="menubar">
+                        <nav class="navbar navbar-expand-lg pt-0 pb-0 pl-0 pr-0 justify-content-end">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
                     </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                      <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            LEGACY
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                          </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            EXPERTISE
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                          </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            COMMITMENT
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                          </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            SUBSIDIARIES
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                          </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            MILESTONES
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                          </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            NEWS
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                          </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            CAREERS
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                          </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            CONTACT
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                          </div>
-                        </li>
-                      </ul>
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            LEGACY <i class="fas fa-chevron-down"></i>
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            EXPERTISE <i class="fas fa-chevron-down"></i>
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            COMMITMENT <i class="fas fa-chevron-down"></i>
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            SUBSIDIARIES <i class="fas fa-chevron-down"></i>
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                MILESTONES <i class="fas fa-chevron-down"></i>
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            NEWS <i class="fas fa-chevron-down"></i>
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            CAREERS <i class="fas fa-chevron-down"></i>
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            CONTACT <i class="fas fa-chevron-down"></i>
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
                     </div>
-                  </nav>
-               </div>
+                </div>
             </div>
-         </div>
-      </div>
-   </header>
+        </div>
+    </header>
 
-<section class="p-0">
-   <div class="banners-slider">
-      <div class="banner-item">
-         <div class="banner-bg" style="background: url('./img/banner.jpg') center center no-repeat;background-size: cover;"></div>
-         <div class="banner-content">
-            <div class="container">
-               <div class="row">
-                  <div class="col-sm-5">
-                     <p class="small-title">BUILDING TOMORROW</p>
-                     <h1 class="banner-title">Headlining India's infrastructural progression</h1>
-                     <p class="banner-leadin">NCC is committed to providing advanced, innovative and sustainable engineering solutions that empower communities and impact lives.</p>
-                     <a href="#" class="btn btn-brand">KNOW HOW</a>
-                  </div>
-                  <div class="col-sm-7">
-                  </div>
-               </div>
+    <section class="p-0">
+        <div class="banners-slider">
+            <div class="banner-item">
+                <div class="banner-bg" style="background: url('./img/banner.jpg') center center no-repeat;background-size: cover;"></div>
+                <div class="banner-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <p class="small-title">BUILDING TOMORROW</p>
+                                <h1 class="banner-title">Headlining India’s infrastructural progression </h1>
+                                <p class="banner-leadin">NCC is committed to providing advanced, innovative and sustainable engineering solutions that empower communities and impact lives</p>
+                                <a href="#" class="btn btn-brand">KNOW HOW</a>
+                            </div>
+                            <div class="col-sm-7">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
-      <div class="banner-item">
-         <div class="banner-bg" style="background: url('./img/banner.jpg') center center no-repeat;background-size: cover;"></div>
-         <div class="banner-content">
-            <div class="container">
-               <div class="row">
-                  <div class="col-sm-5">
-                     <p class="small-title">BUILDING TOMORROW</p>
-                     <h1 class="banner-title">Headlining India's infrastructural progression</h1>
-                     <p class="banner-leadin">NCC is committed to providing advanced, innovative and sustainable engineering solutions that empower communities and impact lives.</p>
-                     <a href="#" class="btn btn-brand">KNOW HOW</a>
-                  </div>
-                  <div class="col-sm-7">
-                  </div>
-               </div>
+            <div class="banner-item">
+                <div class="banner-bg" style="background: url('./img/banner.jpg') center center no-repeat;background-size: cover;"></div>
+                <div class="banner-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <p class="small-title">BUILDING TOMORROW</p>
+                                <h1 class="banner-title">Headlining India's infrastructural progression</h1>
+                                <p class="banner-leadin">NCC is committed to providing advanced, innovative and sustainable engineering solutions that empower communities and impact lives.</p>
+                                <a href="#" class="btn btn-brand">KNOW HOW</a>
+                            </div>
+                            <div class="col-sm-7">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
-      <div class="banner-item">
-         <div class="banner-bg" style="background: url('./img/banner.jpg') center center no-repeat;background-size: cover;"></div>
-         <div class="banner-content">
-            <div class="container">
-               <div class="row">
-                  <div class="col-sm-5">
-                     <p class="small-title">BUILDING TOMORROW</p>
-                     <h1 class="banner-title">Headlining India's infrastructural progression</h1>
-                     <p class="banner-leadin">NCC is committed to providing advanced, innovative and sustainable engineering solutions that empower communities and impact lives.</p>
-                     <a href="#" class="btn btn-brand">KNOW HOW</a>
-                  </div>
-                  <div class="col-sm-7">
-                  </div>
-               </div>
+            <div class="banner-item">
+                <div class="banner-bg" style="background: url('./img/banner.jpg') center center no-repeat;background-size: cover;"></div>
+                <div class="banner-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <p class="small-title">BUILDING TOMORROW</p>
+                                <h1 class="banner-title">Headlining India's infrastructural progression</h1>
+                                <p class="banner-leadin">NCC is committed to providing advanced, innovative and sustainable engineering solutions that empower communities and impact lives.</p>
+                                <a href="#" class="btn btn-brand">KNOW HOW</a>
+                            </div>
+                            <div class="col-sm-7">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
-      <div class="banner-item">
-         <div class="banner-bg" style="background: url('./img/banner.jpg') center center no-repeat;background-size: cover;"></div>
-         <div class="banner-content">
-            <div class="container">
-               <div class="row">
-                  <div class="col-sm-5">
-                     <p class="small-title">BUILDING TOMORROW</p>
-                     <h1 class="banner-title">Headlining India's infrastructural progression</h1>
-                     <p class="banner-leadin">NCC is committed to providing advanced, innovative and sustainable engineering solutions that empower communities and impact lives.</p>
-                     <a href="#" class="btn btn-brand">KNOW HOW</a>
-                  </div>
-                  <div class="col-sm-7">
-                  </div>
-               </div>
+            <div class="banner-item">
+                <div class="banner-bg" style="background: url('./img/banner.jpg') center center no-repeat;background-size: cover;"></div>
+                <div class="banner-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <p class="small-title">BUILDING TOMORROW</p>
+                                <h1 class="banner-title">Headlining India's infrastructural progression</h1>
+                                <p class="banner-leadin">NCC is committed to providing advanced, innovative and sustainable engineering solutions that empower communities and impact lives.</p>
+                                <a href="#" class="btn btn-brand">KNOW HOW</a>
+                            </div>
+                            <div class="col-sm-7">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
-   </div>
-</section>
-<section>
-   <div class="container">
-      <div class="row">
-         <div class="col-sm-8">
-            <p class="small-title">A LEGACY OF TRANSFORMATION</p>
-            <h2 class="text-blue">Over 4 decades of infra-excellence</h2>
-            <p class="banner-leadin">It was in 1978 that the seeds of helping India transform to an economic power was sown by Dr. AVS Raju, Padma Shri Awardee and India’s poineering infra-visionary when he floated Nagarjuna Construction Company Ltd. as a partnership firm. From very modest beginnings as a construction company about four decades ago, today NCC Limited stands tall as a conglomerate encompassing various facets of construction and infrastructure building.</p>
-         </div>
-      </div>
-   </div>
-</section>
-<section></section>
-   <footer>
-      <div class="container">
-         <div class="row footer-border-bottom">
-            <div class="col-sm-4">
-               <div class="footer-website-info">
-                  <img src="./img/footer-logo.png" class="img-fluid footer-logo mb-3">
-                  <p>Committed to a brighter world...</p>
-                  <p>Deligence can accomplish wonders!</p>
-                  <p>For over four decades, we never sidetracked from this belief. and have leapfrogged from being just a construction industry player to a Billion dollar multifunctional infrastructure conglomerate.</p>
-               </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <p class="small-title">A LEGACY OF TRANSFORMATION</p>
+                    <h2 class="text-blue">Over 4 decades of infra-excellence</h2>
+                    <p class="subcopy-leadin">It was in 1978 that the seeds of helping India transform to an economic power was sown by Dr. AVS Raju, Padma Shri Awardee and India’s poineering infra-visionary when he floated Nagarjuna Construction Company Ltd. as a partnership
+                        firm. From very modest beginnings as a construction company about four decades ago, today NCC Limited stands tall as a conglomerate encompassing various facets of construction and infrastructure building. </p>
+                </div>
+                <div class="col-sm-10">
+                    <div class="row">
+                        <div class="col-sm-3 flex-20-desktop">
+                            <div class="highlights-item">
+                                <h2>6,000+</h2>
+                                <p>Workforce</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 flex-20-desktop">
+                            <div class="highlights-item">
+                                <h2>450+</h2>
+                                <p> Buildings & Housing Projects</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 flex-30-desktop">
+                            <div class="highlights-item">
+                                <h2>20,000+ <span class="kms-wrapper"><b> KMS.</b></span></h2>
+                                <p>Water Pipelines</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="highlights-item border-right-0">
+                                <h2>2.11 L+ <span class="kms-wrapper"><b>ACRES</b></span></h2>
+                                <p>Land Irrigated</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-3">
-               <div class="footer-card-wrapper">
-                  <h4 class="heading">Contacts</h4>
-                  <ul class="footer-contact-info">
-                     <li><i class="fas fa-map-marker-alt"></i> NCC House, Madhapur Hyderabad - 500081 Telangana, India</li>
-                     <li><i class="fas fa-phone-alt"></i> T: <a href="">+91 40 2326 8888</a><br>F: <a href="#">+91 40 2312 5555</a></li>
-                     <li><i class="far fa-envelope"></i> <a href="#">ncc.ho@ncc.ltd.in</a></li>
-                     <li><i class="fas fa-globe"></i> <a href="#">www.ncclimited.com</a></li>
-                  </ul>
-               </div>
+        </div>
+    </section>
+    <section class="bg-blue">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-sm-6">
+                    <p class="small-title text-white">OUR EXPERTISE</p>
+                    <h2 class="text-white">India's leading infrastructure conglomerate</h2>
+                </div>
             </div>
-            <div class="col-sm-2">
-               <div class="footer-card-wrapper">
-                  <h4 class="heading">Company</h4>
-                  <ul class="footer-menu-links">
-                     <li><a href="#">Legacy</a></li>
-                     <li><a href="#">Expertise</a></li>
-                     <li><a href="#">Commitment</a></li>
-                     <li><a href="#">Subsidiaries</a></li>
-                     <li><a href="#">Milestones</a></li>
-                     <li><a href="#">News</a></li>
-                     <li><a href="#">Careers</a></li>
-                     <li><a href="#">Contact</a></li>
-                  </ul>
-               </div>
+            <div class="expertise-slider row">
+                <div class="epertise-item col-sm-4">
+                    <div class="expertise-card">
+                        <div class="row">
+                            <div class="col-6">
+                                <h2>01</h2>
+                            </div>
+                            <div class="col-6">
+                                <img src="./img/expertise-1.png" class="">
+                            </div>
+                        </div>
+                        <h4>Buildings & Housing</h4>
+                        <p>Buildings & Housing infrastructure is a key measure of growth and development of a nation reflecting the living standards of its citizens.</p>
+                        <a href="#">DETAILS &nbsp; <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="epertise-item col-sm-4">
+                    <div class="expertise-card">
+                        <div class="row">
+                            <div class="col-6">
+                                <h2>02</h2>
+                            </div>
+                            <div class="col-6">
+                                <img src="./img/expertise-2.png">
+                            </div>
+                        </div>
+                        <h4>Water & Environment</h4>
+                        <p>Water has become a source of concern across the globe with the rapid degradation of environment and unbridled exploitation of natural water resources</p>
+                        <a href="#">DETAILS &nbsp; <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="epertise-item col-sm-4">
+                    <div class="expertise-card">
+                        <div class="row">
+                            <div class="col-6">
+                                <h2>03</h2>
+                            </div>
+                            <div class="col-6">
+                                <img src="./img/expertise-3.png">
+                            </div>
+                        </div>
+                        <h4>Roads</h4>
+                        <p>A strong transportation network shortens the mile paving the way for better connectivity. Roads form the heart-line of transportation establishing accessibility to the remotest part of the country </p>
+                        <a href="#">DETAILS &nbsp; <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="epertise-item col-sm-4">
+                    <div class="expertise-card">
+                        <div class="row">
+                            <div class="col-6">
+                                <h2>04</h2>
+                            </div>
+                            <div class="col-6">
+                                <img src="./img/expertise-4.png">
+                            </div>
+                        </div>
+                        <h4>Railways</h4>
+                        <p>Keeping the development of the nation on the tracks is the Indian Railways, helping movement of people and goods. NCC has undertaken to keep the wheels of growth inconstant motion by</p>
+                        <a href="#">DETAILS &nbsp; <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="epertise-item col-sm-4">
+                    <div class="expertise-card">
+                        <div class="row">
+                            <div class="col-6">
+                                <h2>05</h2>
+                            </div>
+                            <div class="col-6">
+                                <img src="./img/expertise-5.png">
+                            </div>
+                        </div>
+                        <h4>Irrigation</h4>
+                        <p>The lifeline of farmers and the basic necessity to feed the vast population irrigation infrastructure includes a network of major, medium and minor canals Fran Indian rivers, groundwater well-</p>
+                        <a href="#">DETAILS &nbsp; <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="epertise-item col-sm-4">
+                    <div class="expertise-card">
+                        <div class="row">
+                            <div class="col-6">
+                                <h2>06</h2>
+                            </div>
+                            <div class="col-6">
+                                <img src="./img/expertise-6.png">
+                            </div>
+                        </div>
+                        <h4>Mining</h4>
+                        <p>Taking advantage of the Government of India's firm plans for private sector participation in the mining sector, NCC is digging into this business through Mine Developer-cum-Operator (MD0), </p>
+                        <a href="#">DETAILS &nbsp; <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="epertise-item col-sm-4">
+                    <div class="expertise-card">
+                        <div class="row">
+                            <div class="col-6">
+                                <h2>07</h2>
+                            </div>
+                            <div class="col-6">
+                                <img src="./img/expertise-7.png">
+                            </div>
+                        </div>
+                        <h4>Electrical</h4>
+                        <p>With growing need for electrification across the nation, the impetus given by the government to speedily impart accessibility to power has enabled NCC's Electrical Division in handling</p>
+                        <a href="#">DETAILS &nbsp; <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="epertise-item col-sm-4">
+                    <div class="expertise-card">
+                        <div class="row">
+                            <div class="col-6">
+                                <h2>08</h2>
+                            </div>
+                            <div class="col-6">
+                                <img src="./img/expertise-8.png">
+                            </div>
+                        </div>
+                        <h4>Power</h4>
+                        <p>The keystone of development, power is an important constituent of infrastructure, directly affecting the overall economy. NCC's Power Division has been set up with the express purpose </p>
+                        <a href="#">DETAILS &nbsp; <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="epertise-item col-sm-4">
+                    <div class="expertise-card">
+                        <div class="row">
+                            <div class="col-6">
+                                <h2>09</h2>
+                            </div>
+                            <div class="col-6">
+                                <img src="./img/expertise-9.png">
+                            </div>
+                        </div>
+                        <h4>Metals</h4>
+                        <p>The importance of metals incurious industries affects the growth and development in all spheres of the economy. Though in its nascent stage, NCC is all set to contribute its mite to augment this </p>
+                        <a href="#">DETAILS &nbsp; <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-3">
-               <div class="footer-card-wrapper">
-                  <h4 class="heading">Subscribe to Our News</h4>
-                  <p class="text-white">Find out about the last days and the latest promotions of our Corporation</p>
-               </div>
-            </div>
-         </div>
+        </div>
+    </section>
 
-         <div class="row pt-4 pb-4">
-            <div class="col-sm-6">
-               <p class="text-white">All Rights Reserved Copyrights 2022</p>
+    <section class="bg-light-pink">
+        <div class="container">
+            <p class="small-title">OUR SHOWCASE</p>
+            <h2 class="text-purple">Featured Projects</h2>
+
+            <div class="showcase-tabs mt-4">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="building-tab" data-toggle="tab" href="#building" role="tab" aria-controls="building" aria-selected="true">Building & Housing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="water-tab" data-toggle="tab" href="#water" role="tab" aria-controls="water" aria-selected="false">Water & Environment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="roads-tab" data-toggle="tab" href="#roads" role="tab" aria-controls="roads" aria-selected="false">Roads</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="railways-tab" data-toggle="tab" href="#railways" role="tab" aria-controls="railways" aria-selected="false">Railways</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="irrigation-tab" data-toggle="tab" href="#irrigation" role="tab" aria-controls="irrigation" aria-selected="false">Irrigation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="mining-tab" data-toggle="tab" href="#mining" role="tab" aria-controls="mining" aria-selected="false">Mining</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="electrical-tab" data-toggle="tab" href="#electrical" role="tab" aria-controls="electrical" aria-selected="false">Electrical</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="power-tab" data-toggle="tab" href="#power" role="tab" aria-controls="power" aria-selected="false">Power</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="metals-tab" data-toggle="tab" href="#metals" role="tab" aria-controls="metals" aria-selected="false">Metals</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="building" role="tabpanel" aria-labelledby="building-tab">
+                        <div class="projects-slider row">
+                            <div class="projects-item col-sm-4">
+                                <div class="projects-card">
+                                    <img src="./img/cricket-lucknow-stadium.jpg" class="img-fluid">
+                                    <h6 class="project-title">Atal Bihari Vajpayee Ekana Cricket Stadium</h6>
+                                    <div class="row pt-1">
+                                        <div class="col-6">
+                                            <p class="project-location"><i class="fas fa-map-marker-alt"></i> &nbsp; Lucknow,UP</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="#" class="project-link">Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="projects-item col-sm-4">
+                                <div class="projects-card">
+                                    <img src="./img/esi-hospital.jpg" class="img-fluid" style="height: 198px;">
+                                    <h6 class="project-title">ESI Hospital & Medical College</h6>
+                                    <div class="row pt-1">
+                                        <div class="col-6">
+                                            <p class="project-location"><i class="fas fa-map-marker-alt"></i> &nbsp;Gulbarga, Karnatak</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="#" class="project-link">Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="projects-item col-sm-4">
+                                <div class="projects-card">
+                                    <img src="./img/aptidco-nellore.jpg" class="img-fluid">
+                                    <h6 class="project-title">APTIDCO</h6>
+                                    <div class="row pt-1">
+                                        <div class="col-6">
+                                            <p class="project-location"><i class="fas fa-map-marker-alt"></i> &nbsp;Nellore, AP</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="#" class="project-link">Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="projects-item col-sm-4">
+                                <div class="projects-card">
+                                    <img src="./img/cricket-lucknow-stadium.jpg" class="img-fluid">
+                                    <h6 class="project-title">Atal Bihari Vajpayee Ekana Cricket Stadium</h6>
+                                    <div class="row pt-1">
+                                        <div class="col-6">
+                                            <p class="project-location"><i class="fas fa-map-marker-alt"></i> &nbsp; Lucknow,UP</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="#" class="project-link">Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="water" role="tabpanel" aria-labelledby="water-tab">
+                        <div class="projects-slider row">
+                            <div class="projects-item col-sm-4">
+                                <div class="projects-card">
+                                    <img src="./img/cricket-lucknow-stadium.jpg" class="img-fluid">
+                                    <h6 class="project-title">Atal Bihari Vajpayee Ekana Cricket Stadium</h6>
+                                    <div class="row pt-1">
+                                        <div class="col-6">
+                                            <p class="project-location"><i class="fas fa-map-marker-alt"></i> &nbsp; Lucknow,UP</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="#" class="project-link">Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="projects-item col-sm-4">
+                                <div class="projects-card">
+                                    <img src="./img/cricket-lucknow-stadium.jpg" class="img-fluid">
+                                    <h6 class="project-title">Atal Bihari Vajpayee Ekana Cricket Stadium</h6>
+                                    <div class="row pt-1">
+                                        <div class="col-6">
+                                            <p class="project-location"><i class="fas fa-map-marker-alt"></i> &nbsp; Lucknow,UP</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="#" class="project-link">Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="projects-item col-sm-4">
+                                <div class="projects-card">
+                                    <img src="./img/cricket-lucknow-stadium.jpg" class="img-fluid">
+                                    <h6 class="project-title">Atal Bihari Vajpayee Ekana Cricket Stadium</h6>
+                                    <div class="row pt-1">
+                                        <div class="col-6">
+                                            <p class="project-location"><i class="fas fa-map-marker-alt"></i> &nbsp; Lucknow,UP</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="#" class="project-link">Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="projects-item col-sm-4">
+                                <div class="projects-card">
+                                    <img src="./img/cricket-lucknow-stadium.jpg" class="img-fluid">
+                                    <h6 class="project-title">Atal Bihari Vajpayee Ekana Cricket Stadium</h6>
+                                    <div class="row pt-1">
+                                        <div class="col-6">
+                                            <p class="project-location"><i class="fas fa-map-marker-alt"></i> &nbsp; Lucknow,UP</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="#" class="project-link">Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="roads" role="tabpanel" aria-labelledby="roads-tab">
+                        <div class="projects-slider row">
+                            <div class="projects-item col-sm-4">
+                                <div class="projects-card">
+                                    <img src="./img/cricket-lucknow-stadium.jpg" class="img-fluid">
+                                    <h6 class="project-title">Atal Bihari Vajpayee Ekana Cricket Stadium</h6>
+                                    <div class="row pt-1">
+                                        <div class="col-6">
+                                            <p class="project-location"><i class="fas fa-map-marker-alt"></i> &nbsp; Lucknow,UP</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="#" class="project-link">Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="projects-item col-sm-4">
+                                <div class="projects-card">
+                                    <img src="./img/cricket-lucknow-stadium.jpg" class="img-fluid">
+                                    <h6 class="project-title">Atal Bihari Vajpayee Ekana Cricket Stadium</h6>
+                                    <div class="row pt-1">
+                                        <div class="col-6">
+                                            <p class="project-location"><i class="fas fa-map-marker-alt"></i> &nbsp; Lucknow,UP</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="#" class="project-link">Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="projects-item col-sm-4">
+                                <div class="projects-card">
+                                    <img src="./img/cricket-lucknow-stadium.jpg" class="img-fluid">
+                                    <h6 class="project-title">Atal Bihari Vajpayee Ekana Cricket Stadium</h6>
+                                    <div class="row pt-1">
+                                        <div class="col-6">
+                                            <p class="project-location"><i class="fas fa-map-marker-alt"></i> &nbsp; Lucknow,UP</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="#" class="project-link">Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="projects-item col-sm-4">
+                                <div class="projects-card">
+                                    <img src="./img/cricket-lucknow-stadium.jpg" class="img-fluid">
+                                    <h6 class="project-title">Atal Bihari Vajpayee Ekana Cricket Stadium</h6>
+                                    <div class="row pt-1">
+                                        <div class="col-6">
+                                            <p class="project-location"><i class="fas fa-map-marker-alt"></i> &nbsp; Lucknow,UP</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="#" class="project-link">Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="railways" role="tabpanel" aria-labelledby="railways-tab">
+                    </div>
+                    <div class="tab-pane fade" id="irrigation" role="tabpanel" aria-labelledby="irrigation-tab">
+                    </div>
+                    <div class="tab-pane fade" id="mining" role="tabpanel" aria-labelledby="mining-tab">
+                    </div>
+                    <div class="tab-pane fade" id="electrical" role="tabpanel" aria-labelledby="electrical-tab">
+                    </div>
+                    <div class="tab-pane fade" id="power" role="tabpanel" aria-labelledby="power-tab">
+                    </div>
+                    <div class="tab-pane fade" id="metals" role="tabpanel" aria-labelledby="metals-tab">
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-6 text-sm-right">
-               <ul class="social-links">
-                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                  <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-               </ul>
+        </div>
+    </section>
+
+    <section class="bg-yellow">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="">
+                        <p class="small-title text-white">OUR PRESENCE</p>
+                        <h2 class="text-blue mb-4">Regional Offices across India</h2>
+                        <p class="text-white mb-5">NCC Limited has made a mark in the country as the second largest listed construction company in terms of revenue,with well diversified activities comprising building & housing, roads, water & environment, irrigation, electrical,
+                            metals, mining and railways. The group has expanded its footprints to have a pan India presence with offices across 13 cities in Maharashtra, Andhra Pradesh, Telagana, Karnataka, Gujarat, Uttar Pradesh, West Bengal and Tamil
+                            Nadu.
+                        </p>
+                        <h1 class="text-blue large-heading">100+</h1>
+                        <p class="text-white">Active projects across<br>India</p>
+                        <a href="#" class="btn btn-white">KEY PROJECTS</a>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div>
+                        <img src="img/india-map.png" alt="india-map" class="img-fluid mt-sm-0 mt-4">
+                    </div>
+                </div>
             </div>
-         </div>
+        </div>
+    </section>
+    <section class="bg-blue">
+        <div class="container">
+            <div class="row pb-5 mb-5 border-bottom-yellow">
+                <div class="col-sm-4">
+                    <div class="section-info-wrapper">
+                        <p class="small-title text-white">OUR STRENGTH</p>
+                        <h2 class="text-yellow mb-4">Multi-disciplinary Engineering<br> Expertise</h2>
+                        <ul class="tick-list">
+                            <li>Building the future powered by innovation</li>
+                            <li>Backed by highly skilled workforce</li>
+                            <li>Concrete to construction</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="strength-card">
+                        <img src="./img/strength-1.png" class="img-fluid">
+                        <h4 class="text-white mb-3">Spearheaded <br> by a visionary</h4>
+                        <p>To quote Dr. AVS Raju, Padma Shri Awardee and the Founder Chairman Emeritus, NCC Limited, “At NCC we follow the three fold path of hard work, tenacity and common sense. Because we believe wisdom is nothing but common sense to an
+                            uncommon degree. So, we all are attuned to finding new solutions to challenges old and new.”</p>
+                        <p>Clearly, the culture of commitment and diligence in our organisation has been succinctly spelt out. </p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="strength-card">
+                        <img src="./img/strength-2.png" class="img-fluid">
+                        <h4 class="text-white mb-3">Strong foundation <br> of values</h4>
+                        <p>Outgrowing the belief that business exists for the sole purpose of profits, NCC has, in its culture, embedded the concept of sustainability in all the three perspectives viz. economic, societal and environmental. The company’s
+                            goals are strategically aligned to ensure balanced growth by giving back to society. Values of honesty, integrity and transparency form the founding pillars of the company
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="strength-card">
+                        <img src="./img/strength-3.png" class="img-fluid">
+                        <h4 class="text-white mb-3">Experience of building large scale projects </h4>
+                        <p>The veritable list of NCC’s clientele including both public sector undertakings and private sector institutions are clear indicators of its abilities to deliver large scale projects on time maintaining the highest quality standards.</p>
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="strength-card">
+                        <img src="./img/strength-4.png" class="img-fluid">
+                        <h4 class="text-white mb-3">Driven by innovation <br> at every step</h4>
+                        <p>NCC’s holistic expertise stems from its constant dedication and pursuit of knowledge leading to innovative solutions to challenges. Belief in the talent, skill and commitment of the 5300 employees coupled with training and development
+                            has been the reason for adoption/ improvisation of the latest technologies resulting in very satisfactory outcomes.</p>
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="strength-card">
+                        <img src="./img/strength-5.png" class="img-fluid">
+                        <h4 class="text-white mb-3">Focus on engineering excellence
+                        </h4>
+                        <p>Technically qualified engineers form the majority of the employees at both staff and line positions. The strong technological and engineering background lays the foundation for sound designs and impeccable implementation of projects.
+                            Keeping abreast of the latest developments in the field of construction, Team NCC is always geared up to take initiatives for innovative designs and finding solutions to vexing problems.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="small-title text-white">ENGINEERING EXCELLENCE</p>
+                </div>
+                <div class="col-sm-12">
+                    <div class="row mb-4 align-items-sm-end">
+                        <div class="col-sm-6">
+                            <h2 class="text-white">Creating a brighter future with Integrity and commitment</h2>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="#" class="btn btn-brand float-sm-right">LEADERSHIP TEAM</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="mb-4">
+                        <img src="img/Creating-a-brighter-future-section-image.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <p class="text-skilles text-white">Thanks to our dedicated management team and skilled workforce, NCC has continuously succeeded in meeting its objectives in terms of quality and timely delivery. NCC's four decades of endeavour and commitment has seen it foray into
+                        new divisions and cross the billion dollar mark in turnover and 4 billion dollar mark in the Order Book. </p>
+                    <ul class="tick-list">
+                        <li>Experienced and dedicated teams</li>
+                        <li>Best-in-class Engineering expertise</li>
+                        <li>Time-bound delivery</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 mt-sm-3 quotes-col">
+                    <p class="text-white text-skilles quotes-copy"><img src="./img/quote-left.png" class="img-fluid left-quote"> &nbsp; Going ahead, we will continue our journey towards the larger vision of building a brighter world. I firmly believe and wish the Company uninterrupted success while
+                        continuing to maintain its core values. &nbsp; <img src="./img/quote-right.png" class="img-fluid right-quote"></p>
+                    <div class="founder-card">
+                        <img src="./img/engineering-excellence-founder.png" class="img-fluid founder-img">
+                        <p class="mb-0 text-white">Dr. AVS Raju</p>
+                        <p class="text-white">Founder & Chairman Emeritus</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light-pink">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="row mb-4 align-items-sm-center">
+                        <div class="col-sm-8">
+                            <p class="small-title">OUR MEDIA ROOM</p>
+                            <h2 class="text-blue">Latest events and happenings</h2>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="" class="btn btn-brand float-sm-right">OUR BLOG</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="blog-slider row">
+                        <div class="blog-item col-sm-4">
+                            <div class="blog-card">
+                                <img src="img/media-1.jpg" alt="media img1" class="img-fluid">
+                                <div class="blog-card-content">
+                                    <p class="blog-paper-article">THE TIMES OF INDIA <span>JUNE 03,2022</span></p>
+                                    <h4 class="blog-title">Impact of Technology on Contruction Finance</h4>
+                                    <p class="blog-desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <a href="#" class="blog-link"> READ POST &nbsp; <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-item col-sm-4">
+                            <div class="blog-card">
+                                <img src="img/media-2.jpg" alt="media img2" class="img-fluid">
+                                <div class="blog-card-content">
+                                    <p class="blog-paper-article">THE TIMES OF INDIA <span>JUNE 03,2022</span></p>
+                                    <h4 class="blog-title">Impact of Technology on Contruction Finance</h4>
+                                    <p class="blog-desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <a href="#" class="blog-link"> READ POST &nbsp; <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-item col-sm-4">
+                            <div class="blog-card">
+                                <img src="img/media-3.jpg" alt="media img3" class="img-fluid">
+                                <div class="blog-card-content">
+                                    <p class="blog-paper-article">THE TIMES OF INDIA <span>JUNE 03,2022</span></p>
+                                    <h4 class="blog-title">Impact of Technology on Contruction Finance</h4>
+                                    <p class="blog-desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <a href="#" class="blog-link"> READ POST &nbsp; <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-item col-sm-4">
+                            <div class="blog-card">
+                                <img src="img/media-1.jpg" alt="media img1" class="img-fluid">
+                                <div class="blog-card-content">
+                                    <p class="blog-paper-article">THE TIMES OF INDIA <span>JUNE 03,2022</span></p>
+                                    <h4 class="blog-title">Impact of Technology on Contruction Finance</h4>
+                                    <p class="blog-desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <a href="#" class="blog-link"> READ POST &nbsp; <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="">
+                        <p class="small-title">CONTACT US</p>
+                        <h2 class="text-blue mb-4">Reach out <br>to excellence</h2>
+                        <div class="form-wrapper reachout-form">
+                            <form>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Full Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input type="number" class="form-control" placeholder="Phone">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="5"></textarea>
+                                </div>
+                                <div class="float-sm-right">
+                                    <button type="submit" class="btn btn-brand">SEND MESSAGE <i class="far fa-paper-plane"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="mt-sm-0 mt-4">
+                        <img src="img/portfolio-image.png" alt="portfolio-image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row footer-border-bottom">
+                <div class="col-sm-4">
+                    <div class="footer-website-info">
+                        <img src="./img/footer-logo.png" class="img-fluid footer-logo mb-3">
+                        <p>Committed to a brighter world...</p>
+                        <p>Deligence can accomplish wonders!</p>
+                        <p>For over four decades, we never sidetracked from this belief. and have leapfrogged from being just a construction industry player to a Billion dollar multifunctional infrastructure conglomerate.</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-card-wrapper">
+                        <h4 class="heading">Contacts</h4>
+                        <ul class="footer-contact-info">
+                            <li><i class="fas fa-map-marker-alt"></i> NCC House, Madhapur Hyderabad - 500081 Telangana, India</li>
+                            <li><i class="fas fa-phone-alt"></i> T: <a href="">+91 40 2326 8888</a><br>F: <a href="#">+91 40 2312 5555</a></li>
+                            <li><i class="far fa-envelope"></i> <a href="#">ncc.ho@ncc.ltd.in</a></li>
+                            <li><i class="fas fa-globe"></i> <a href="#">www.ncclimited.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="footer-card-wrapper">
+                        <h4 class="heading">Company</h4>
+                        <ul class="footer-menu-links">
+                            <li><a href="#">Legacy</a></li>
+                            <li><a href="#">Expertise</a></li>
+                            <li><a href="#">Commitment</a></li>
+                            <li><a href="#">Subsidiaries</a></li>
+                            <li><a href="#">Milestones</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-card-wrapper">
+                        <h4 class="heading">Subscribe to Our News</h4>
+                        <p class="text-white">Find out about the last days and the latest promotions of our Corporation</p>
+                        <div class="subscribe-form-wrapper">
+                            <form>
+                                <div class="input-group mb-3">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text btn btn-brand" id="basic-addon2">SUBSCRIBE</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row pt-4 pb-4">
+                <div class="col-sm-6">
+                    <p class="text-white"><b>All rights reserved Copyrights 2022</b></p>
+                </div>
+                <div class="col-sm-6 text-sm-right">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
 
 
-      </div>
-   </footer>
+        </div>
+    </footer>
 
 
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
-   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-   <script>
-      $('.banners-slider').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: false,
-        autoplaySpeed: 5000,
-        pauseOnHover:true,
-        dots: true,
-        fade: false,
-        arrows: false,
-        infinite: false,
-        responsive:[
-        {
-           breakpoint:480,
-           settings:
-           {
-              slidesToShow:1,
-              slidesToScroll:1,
-           }
+    <script>
+        $('.banners-slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: false,
+            autoplaySpeed: 5000,
+            pauseOnHover: true,
+            dots: true,
+            fade: false,
+            arrows: false,
+            infinite: false,
+            responsive: [{
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }]
+        });
+
+
+        if (window.matchMedia("(max-width: 768px)").matches) {
+            /* the viewport is less than 768 pixels wide */
+            $('.expertise-slider').slick({
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                autoplay: true,
+                autoplaySpeed: 5000,
+                pauseOnHover: true,
+                dots: true,
+                fade: false,
+                arrows: false,
+                infinite: false,
+                loop: false,
+                responsive: [{
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                }]
+            });
         }
-     ]
-    });
-   </script>
-   
+
+        $('.projects-slider').slick({
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            autoplay: false,
+            autoplaySpeed: 5000,
+            pauseOnHover: true,
+            dots: false,
+            fade: false,
+            arrows: true,
+            infinite: false,
+            responsive: [{
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    dots: true,
+                }
+            }]
+        });
+
+        $(".nav-tabs").click(function() {
+            $('.projects-slider').slick('refresh');
+        });
+
+
+        $('.blog-slider').slick({
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            autoplay: false,
+            autoplaySpeed: 5000,
+            pauseOnHover: true,
+            dots: false,
+            fade: false,
+            arrows: true,
+            infinite: false,
+            responsive: [{
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    dots: true,
+                }
+            }]
+        });
+    </script>
+
 </body>
+
 </html>
