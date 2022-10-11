@@ -303,6 +303,24 @@ header {
     color: #fff;
 }
 
+.dropdown-menu{
+    background: #06214F;
+    border-radius: 0;
+    border: 0;
+    margin-top: 0;
+}
+
+.dropdown-item{
+    border: 0;
+    font-size: 14px;
+    border-bottom: 1px solid #5A606D;
+    padding: .25rem 0.8rem;
+    color: #fff;
+}
+.dropdown-item:last-item{
+    border-bottom: 0;
+}
+
 .dropdown-toggle i {
     color: #F3B128;
     font-size: 12px;
